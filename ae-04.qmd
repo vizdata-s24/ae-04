@@ -1,0 +1,33 @@
+---
+title: "Joining forces"
+format: html
+editor: visual
+---
+
+# Setup
+
+```{r}
+#| label: load-packages
+#| message: false
+
+library(tidyverse)
+library(MoMAColors) # devtools::install_github("BlakeRMills/MoMAColors")
+# add other packages as needed
+```
+
+```{r}
+#| label: load-data
+#| message: false
+
+professions <- read_csv("data/professions.csv")
+dates <- read_csv("data/dates.csv")
+works <- read_csv("data/works.csv")
+```
+
+# Recreate
+
+```{r}
+#| label: label-me
+
+# add code here
+```
